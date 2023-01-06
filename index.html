@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Sum Calculator</title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="insidecontainer">
+        <div class="text1">
+          Enter First Number<input id="num1" type="text" name="" id="" />
+        </div>
+        <div class="text1">
+          Enter Second Number<input id="num2" type="text" name="" id="" />
+        </div>
+        <div class="text12">
+          <button class="btn" type="button" onclick="calcSum()">
+            Calculate
+          </button>
+          <button class="btn btn-color" type="button" onclick="clear1()">
+            Clear
+          </button>
+        </div>
+
+        <!-- <div>Sum is<input id="Ans" type="text" name="" id="" /></div> -->
+        <p class="text1 text2">Sum is <span class="" id="answer">0</span></p>
+      </div>
+    </div>
+
+    <script src="sum.js"></script>
+  </body>
+</html>
